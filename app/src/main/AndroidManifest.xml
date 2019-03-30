@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SubmitComplaint"></activity>
+        <activity android:name=".SubmitComplaint" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,6 +17,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".LoginSignup"
+            android:label="@string/title_activity_login_signup" />
+        <activity
+            android:name=".homedashboard"
+            android:label="@string/title_activity_homedashboard" />
+        <activity
+            android:name=".ratecomplaint"
+            android:label="@string/title_activity_ratecomplaint" />
+        <activity
+            android:name=".makecomplaint"
+            android:label="@string/title_activity_makecomplaint"></activity>
     </application>
 
 </manifest>
