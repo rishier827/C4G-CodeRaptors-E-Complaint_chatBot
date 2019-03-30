@@ -9,14 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ratecomplaint"></activity>
+        <activity android:name=".MainActivity1"></activity>
+        <activity android:name=".ratecomplaint" />
         <activity
             android:name=".homedashboard"
             android:label="@string/title_activity_homedashboard" />
-        <activity
-            android:name=".loginsignup"
-            android:label="@string/title_activity_loginsignup"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
