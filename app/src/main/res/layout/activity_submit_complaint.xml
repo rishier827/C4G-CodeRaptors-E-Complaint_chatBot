@@ -6,4 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".SubmitComplaint">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Region"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <TextView
+        android:id="@+id/regionDisplay"
+        android:layout_width="113dp"
+        android:layout_height="19dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="115dp" />
 </android.support.constraint.ConstraintLayout>
