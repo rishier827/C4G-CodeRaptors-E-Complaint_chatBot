@@ -25,7 +25,7 @@ public class homedashboard extends AppCompatActivity {
                     mTextMessage.setText(R.string.title_createcomplaint);
                     return true;
                 case R.id.navigation_notifications:
-                    mTextMessage.setText(R.string.title_notifications)
+                    mTextMessage.setText(R.string.title_notifications);
                     return true;
             }
             return false;
