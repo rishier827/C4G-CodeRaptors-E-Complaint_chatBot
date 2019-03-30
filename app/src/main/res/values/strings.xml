@@ -5,6 +5,6 @@
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_homedashboard">homedashboard</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
+    <string name="title_createcomplaint">Create Complaint</string>
     <string name="title_notifications">Notifications</string>
 </resources>
